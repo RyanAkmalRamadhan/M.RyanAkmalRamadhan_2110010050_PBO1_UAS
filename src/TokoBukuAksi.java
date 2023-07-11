@@ -29,6 +29,7 @@ public class TokoBukuAksi {
 
         B.mendapatDiskon();
         System.out.println("  Harga Buku Setelah Mendapat Diskon  : "+B.harga);
+        System.out.println("===============================================");
 
 
 
