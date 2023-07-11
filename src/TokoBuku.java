@@ -4,7 +4,7 @@ public class TokoBuku {
     String penulis;
 
     public void mendapatDiskon(){
-        this.harga = this.harga - 5000;
+        this.harga = this.harga - 10000;
     }
 
 
