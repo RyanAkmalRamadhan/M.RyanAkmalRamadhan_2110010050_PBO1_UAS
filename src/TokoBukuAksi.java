@@ -14,6 +14,9 @@ public class TokoBukuAksi {
         System.out.println("  Harga Buku   : Rp."+A.harga);
         System.out.println("  Penulis Buku : "+A.penulis);
 
+        A.mendapatDiskon();
+        System.out.println("  Harga Buku Setelah Mendapat Diskon  : "+A.harga);
+
 
         TokoBuku B = new TokoBuku();
         B.nama = "Buku Java";
@@ -23,9 +26,9 @@ public class TokoBukuAksi {
         System.out.println("2.Nama Buku    : "+B.nama);
         System.out.println("  Harga Buku   : Rp."+B.harga);
         System.out.println("  Penulis Buku : "+B.penulis);
-        
+
         B.mendapatDiskon();
-        System.out.println("  Harga Buku Setelah Mendapat Diskon  : "+(A.harga+B.harga));
+        System.out.println("  Harga Buku Setelah Mendapat Diskon  : "+B.harga);
 
 
 
